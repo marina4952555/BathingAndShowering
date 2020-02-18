@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Bathing&Showering</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preload" href="fonts/Montserrat-Regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/Montserrat-SemiBold.woff2" as="font" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="line">
+      <div class="main-nav__wrapper">
+        <a href="#" class="main-nav__back">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+            <g fill="#999999" fill-rule="evenodd" transform="matrix(-1 0 0 1 21 7)">
+              <path fill-rule="nonzero" d="M5.293 12.293a1 1 0 0 0 1.414 1.414L13.414 7 6.707.293a1 1 0 1 0-1.414 1.414L10.586 7l-5.293 5.293z"/>
+              <rect width="11" height="2" y="6" rx="1"/>
+            </g>
+          </svg>
+          <span class="main-nav__back__text">Daily activities</span>
+        </a>
+        <div class="main-nav__heading">Bathing & Showering</div> 
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <g fill="#999999" fill-rule="nonzero">
+                <path d="M15.5 22a8.5 8.5 0 1 0 0-17 8.5 8.5 0 0 0 0 17zm0-2a6.5 6.5 0 1 1 0-13 6.5 6.5 0 0 1 0 13z"/>
+                <path d="M10.238 20.176l-3.056 3.056a1 1 0 0 1-1.414-1.414l3.056-3.056a1 1 0 0 1 1.414 1.414z"/>
+              </g>
+            </svg>
+            <span class="main-nav__search">Search</span>
+          </li>
+          <li class="main-nav__item button">
+            <button class="main-nav__button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <g fill="#000" fill-rule="evenodd" transform="translate(8 7)">
+                  <rect width="12" height="2" y="6" rx="1"/>
+                  <rect width="12" height="2" rx="1"/>
+                  <rect width="12" height="2" y="12" rx="1"/>
+                </g>
+              </svg>
+            </button>
+          </li>
+          <li class="main-nav__item font">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#999999" fill-rule="evenodd" d="M23 7a1 1 0 0 1 0 2h-5v11a1 1 0 0 1-2 0V9h-5a1 1 0 1 1 0-2h12zm-11 6a1 1 0 1 1 0 2h-2v5a1 1 0 0 1-2 0v-5H6a1 1 0 1 1 0-2h6z"/>
+            </svg>
+            <span class="main-nav__font">Font Size</span> 
+          </li>
+          <li class="main-nav__item user">
+            <a href="#" class="main-nav__item__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <circle r="14" cx="14" cy="14" fill="#999999"></circle>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container">
+      <h1 class="main__heading">Personalized suggestions just for <span class="main__heading__color">your mom</span></h1>
+      <div class="main__filter filter">
+        <span class="filtr__heading filtr__heading--mobile">Filters:</span>
+        <span class="filtr__heading filtr__heading--desktop">Refine suggestions:</span>
+        <ul class="filter-list">
+          <li class="filter__item">
+            <button class="filtr__button filtr__button--active">
+              <span class="filtr__button__text">Reduce scare and anxiety</span>
+            </button>
+          </li>
+          <li class="filter__item">
+            <button class="filtr__button">
+              <span class="filtr__button__text">Preparation for bathing</span>
+            </button>            
+          </li>
+          <li class="filter__item">
+            <button class="filtr__button">
+              <span class="filtr__button__text">Communication</span>
+            </button>            
+          </li>
+          <li class="filter__item">
+            <button class="filtr__button">
+              <svg class="filter__star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <path fill="#FFC501" fill-rule="nonzero" d="M14 20.773l-5.145 2.442a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z"/>
+              </svg>
+              <span class="filtr__button__text filtr__button__text--star">Favorites</span>
+            </button>            
+          </li>
+        </ul>
+      </div>
+      <article class="main__advice">
+        <div class="article__top">
+          <h2 class="article__heading">Try care tips</h2>
+          <a href="#" class="article__link article__link--mobile">View All</a>
+          <a href="#" class="article__link article__link--desktop">All care tips</a>
+        </div>
+        <ul class="main__advice__list">
+          <li class="main__advice__item">
+            <div class="main__advice__wrapp">
+              <p class="article__text">
+                Prepare the bath or shower ahead of time. Raise the room temperature, turn on the lights, install the shower stool, prepare towels, fresh gown and toiletries. If the person likes, have some soft music on.
+              </p>
+              <h3 class="article__text-heading">Daily Activities: Bathing & Showering</h3>
+            </div>
+            <svg class="article-star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+            </svg>
+          </li>
+          <li class="main__advice__item">
+            <div class="main__advice__wrapp">
+              <p class="article__text">
+                If possible, try to match the home bathing or showering routine including time and personal preferences.
+              </p>
+              <h3 class="article__text-heading">Behaviors: Believes things that are not true</h3>
+            </div>
+            <svg class="article-star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#FFC501" fill-rule="nonzero" d="M14 20.773l-5.145 2.442a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z"/>
+            </svg>
+          </li>
+          <li class="main__advice__item">
+            <div class="main__advice__wrapp">
+              <p class="article__text">
+                Cover mirrors with a towel or paper. This will prevent the person from getting scared by their own reflection. Sometimes a person with dementia does not recognize themselves in the mirror and think they are seeing 
+              </p>
+              <h3 class="article__text-heading">Safety: Driving safety</h3>
+            </div>
+            <svg class="article-star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+            </svg>
+          </li>
+        </ul>
+      </article>
+      <article class="main__video">
+        <div class="article__top">
+          <h2 class="article__heading">Watch videos</h2>
+          <a href="#" class="article__link article__link--mobile">View All</a>
+          <a href="#" class="article__link article__link--desktop">All videos</a>
+        </div>
+        <ul class="main__video__list">
+          <li class="main__video__item main__video__item--active">
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/rectangle-copy.png 1x, img/rectangle-copy@2x.png 2x, img/rectangle-copy@3x.png 3x ">
+              <img class="main__video__img" src="img/rectangle-copy.png" srcset="img/rectangle-copy@2x.png 2x" alt="Watch videos">
+            </picture>
+            <div class="main__video__decor">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <path fill="#ffffff" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z"/>
+              </svg>
+              <p class="main__video__time">6:12</p>
+            </div>
+            <svg class="main__video-1" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+              <circle r="24" cx="24" cy="24" fill="#ffc501"></circle>
+            </svg>
+            <svg class="main__video-2" width="16" height="13">
+              <polygon points="0,0 16,7 0,16" fill="#000000" stroke="purple"/>
+            </svg>
+            <p class="article__text">Learn what to do when the person refuses to bathe. (4 minutes)</p>
+            <h3 class="article__text-heading">Safety: Driving safety</h3>
+          </li>
+          <li class="main__video__item">
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/rectangle-copy-2.png 1x, img/rectangle-copy-2@2x.png 2x, img/rectangle-copy-2@3x.png 3x ">
+                <img class="main__video__img" src="img/rectangle-copy-2.png" srcset="img/rectangle-copy-2@2x.png 2x" alt="Watch videos">
+            </picture>
+            <div class="main__video__decor">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <path fill="#FFC501" fill-rule="nonzero" d="M14 20.773l-5.145 2.442a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z"/>
+              </svg>
+              <p class="main__video__time">11:06</p>
+            </div>
+            <p class="article__text">Try engaging the person with their favorite music. If you don't know, try po…</p>
+            <h3 class="article__text-heading">Behaviors: Believes things that are not true</h3>
+          </li>
+          <li class="main__video__item main__video__item--second">
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/rectangle-copy.png 1x, img/rectangle-copy@2x.png 2x, img/rectangle-copy@3x.png 3x ">
+              <img class="main__video__img" src="img/rectangle-copy.png" srcset="img/rectangle-copy@2x.png 2x" alt="Watch videos">
+            </picture>
+            <div class="main__video__decor">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <path fill="#ffffff" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z"/>
+              </svg>
+              <p class="main__video__time">1:18</p>
+            </div>
+            <p class="article__text">New or worse anxiety.</p>
+            <h3 class="article__text-heading">Safety: Driving safety</h3>
+          </li>
+          <li class="main__video__item main__video__item--second">
+            <picture>
+              <source media="(min-width: 768px)" srcset="img/rectangle-copy-3.png 1x, img/rectangle-copy-3@2x.png 2x, img/rectangle-copy-3@3x.png 3x ">
+                <img class="main__video__img" src="img/rectangle-copy-3.png" srcset="img/rectangle-copy-3@2x.png 2x" alt="Watch videos">
+            </picture>
+            <div class="main__video__decor">
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <path fill="#ffffff" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z"/>
+              </svg>
+              <p class="main__video__time">31:48</p>
+            </div>
+            <p class="article__text">A Brief History Of Anesthetics</p>
+            <h3 class="article__text-heading">Behaviors: Believes things that are not true</h3>
+          </li>
+        </ul>
+      </article>
+      <article class="main__music">
+        <div class="article__top">
+          <h2 class="article__heading">Listen to podcasts</h2>
+          <a href="#" class="article__link article__link--mobile">View All</a>
+          <a href="#" class="article__link article__link--desktop">All podcasts</a>
+        </div>
+        <ol class="main__music__list">
+          <li class="main__music__item main__music__item--first">
+            <div class="main__music__box">
+              <div class="main__music__wrapp">
+                <p class="article__text">
+                  Read more about 'Older Adults and Depression', and be on the lookout for warning signs. Seek help early.
+                </p>
+                <h3 class="article__text-heading">Safety: Driving safety</h3>
+              </div>
+              <p class="main__music__time">12:26</p>
+              <svg class="main__music__-star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+              </svg>
+            </div>
+          </li>
+          <li class="main__music__item main__music__item--second">
+            <div class="main__music__box">
+              <div class="main__music__wrapp">
+                <p class="article__text">
+                  <span class="main__music__number">1.</span>A Brief History Of Anesthetics
+                </p>
+                <h3 class="article__text-heading">Behaviors: Believes things that are not true</h3>
+              </div>
+              <p class="main__music__time">12:26</p>
+              <svg class="main__music__-star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+              </svg>
+            </div>
+          </li>
+          <li class="main__music__item">
+            <div class="main__music__box">
+              <div class="main__music__wrapp">
+                <p class="article__text">
+                  <span class="main__music__number">2.</span>24×7 Medications Online Service
+                </p>
+                <h3 class="article__text-heading">Behaviors: Believes things that are not true</h3>
+              </div>
+              <p class="main__music__time">12:26</p>
+              <svg class="main__music__-star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+              </svg>
+            </div>
+          </li>
+          <li class="main__music__item main__music__item--second main__music__item--active">
+            <div class="main__music__box">
+              <div class="main__music__wrapp">
+                <p class="article__text">
+                  Learn how to practice the self-compassion break. You can listen to the podcast. Compassion starts with oneself and it can be learned. It will help you feel more compassion for yourself and the person in your care. (6 minutes)
+                </p>
+                <h3 class="article__text-heading">Safety: Driving safety</h3>
+              </div>
+              <p class="main__music__time">6:12</p>
+              <svg class="main__music__-star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+                <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+              </svg>
+              <svg class="main__music-1" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                <circle r="15" cx="15" cy="15" fill="#ffc501"></circle>
+              </svg>
+              <svg class="main__music-2" width="9" height="8">
+                <polygon points="0,0 9,4 0,8" fill="#000000" stroke="purple"/>
+              </svg>
+            </div>
+          </li>
+        </ol>
+      </article>
+      <article class="main__links">
+        <div class="article__top">
+          <h2 class="article__heading">Chesk useful links</h2>
+          <a href="#" class="article__link article__link--mobile">View All</a>
+          <a href="#" class="article__link article__link--desktop"></a>
+        </div>
+        <ul class="main__links__list">
+          <li class="main__links__item">
+            <div class="main__links__wrapp">
+              <p class="article__text article__text__links">Learn about palliative care. Palliative care can help people with a serious illness at any stage.</p></a>
+              <a href="#"><p class="main__links__link">http://palliativedoctors.org/palliative/care</p></a>
+              <h3 class="article__text-heading">Daily Activities: Bathing & Showering</h3>
+            </div>
+            <svg class="article-star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+            </svg>
+          </li>
+          <li class="main__links__item">
+            <div class="main__links__wrapp">
+              <p class="article__text article__text__links">Prepare the bath or shower ahead of time. Raise the room temperature, turn on the lights, install the shower stool, prepare towels, fresh gown and toiletries. If the person likes, have some soft music on.</p>
+              <a href="#"><p class="main__links__link">http://palliativedoctors.org/palliative/supercare</p></a>
+              <h3 class="article__text-heading">Daily Activities: Bathing & Showering</h3>
+            </div>
+            <svg class="article-star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+            </svg>
+          </li>
+        </ul>
+      </article>
+      <article class="main__document">
+        <div class="article__top main__document__top">
+          <h2 class="article__heading">Read important documents</h2>
+          <a class="article__link article__link--mobile">View All</a>
+          <a class="article__link article__link--desktop">All documents</a>
+        </div>
+        <ul class="main__document__list">
+          <li class="main__document__item">
+            <svg class="main__document__img" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <g fill="#000" fill-rule="evenodd">
+                <path fill-rule="nonzero" d="M7 22h14V10.35L17.518 6H7v16zM18.779 4.375l4.002 5A1 1 0 0 1 23 10v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h11.998a1 1 0 0 1 .78.375z"/>
+                <rect width="10" height="2" x="9" y="12" rx="1"/>
+                <rect width="6" height="2" x="9" y="16" rx="1"/>
+              </g>
+            </svg>
+            <div class="main__document__wrapp">
+              <p class="article__text article__text__document">What Is Classical Homeopathy</p>
+              <p class="main__document__time">6 min read</p>
+              <h3 class="article__text-heading">Daily Activities: Bathing & Showering</h3>
+            </div>
+            <svg class="main__document__star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+            </svg>
+          </li>
+          <li class="main__document__item">
+            <svg class="main__document__img" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <g fill="#000" fill-rule="evenodd">
+                <path fill-rule="nonzero" d="M7 22h14V10.35L17.518 6H7v16zM18.779 4.375l4.002 5A1 1 0 0 1 23 10v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h11.998a1 1 0 0 1 .78.375z"/>
+                <rect width="10" height="2" x="9" y="12" rx="1"/>
+                <rect width="6" height="2" x="9" y="16" rx="1"/>
+              </g>
+            </svg>
+            <div class="main__document__wrapp">
+              <p class="article__text article__text__document">Read more about 'Older Adults and Depression', and be on the lookout for warning signs. Seek help early.</p>
+              <p class="main__document__time">11 min read</p>
+              <h3 class="article__text-heading">Safety: Driving safety</h3>
+            </div>
+            <svg class="main__document__star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+            </svg>
+          </li>
+          <li class="main__document__item main__document__item--first">
+            <svg class="main__document__img" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <g fill="#000" fill-rule="evenodd">
+                <path fill-rule="nonzero" d="M7 22h14V10.35L17.518 6H7v16zM18.779 4.375l4.002 5A1 1 0 0 1 23 10v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h11.998a1 1 0 0 1 .78.375z"/>
+                <rect width="10" height="2" x="9" y="12" rx="1"/>
+                <rect width="6" height="2" x="9" y="16" rx="1"/>
+              </g>
+            </svg>
+            <div class="main__document__wrapp">
+              <p class="article__text article__text__document">What Is Classical Homeopathy</p>
+              <p class="main__document__time">6 min read</p>
+              <h3 class="article__text-heading">Daily Activities: Bathing & Showering</h3>
+            </div>
+            <svg class="main__document__star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#FFC501" fill-rule="nonzero" d="M14 20.773l-5.145 2.442a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z"/>
+            </svg>
+          </li>
+          <li class="main__document__item main__document__item--second">
+            <svg class="main__document__img" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <g fill="#000" fill-rule="evenodd">
+                <path fill-rule="nonzero" d="M7 22h14V10.35L17.518 6H7v16zM18.779 4.375l4.002 5A1 1 0 0 1 23 10v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h11.998a1 1 0 0 1 .78.375z"/>
+                <rect width="10" height="2" x="9" y="12" rx="1"/>
+                <rect width="6" height="2" x="9" y="16" rx="1"/>
+              </g>
+            </svg>
+            <div class="main__document__wrapp">
+              <p class="article__text article__text__document">Learn how to practice the self-compassion break. You can listen to the podcast. Compassion starts with oneself and it can be learned. It will help you feel more compassion for yourself and the person in your care.</p>
+              <p class="main__document__time">4 min read</p>
+              <h3 class="article__text-heading">Safety: Driving safety</h3>
+            </div>
+            <svg class="main__document__star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#FFC501" fill-rule="nonzero" d="M14 20.773l-5.145 2.442a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z"/>
+            </svg>
+          </li>
+          <li class="main__document__item main__document__item--first">
+            <svg class="main__document__img" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <g fill="#000" fill-rule="evenodd">
+                <path fill-rule="nonzero" d="M7 22h14V10.35L17.518 6H7v16zM18.779 4.375l4.002 5A1 1 0 0 1 23 10v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h11.998a1 1 0 0 1 .78.375z"/>
+                <rect width="10" height="2" x="9" y="12" rx="1"/>
+                <rect width="6" height="2" x="9" y="16" rx="1"/>
+              </g>
+            </svg>
+            <div class="main__document__wrapp">
+              <p class="article__text article__text__document">Read more about 'Older Adults and Depression', and be on the lookout for warning signs. Seek help early.</p>
+              <p class="main__document__time">11 min read</p>
+              <h3 class="article__text-heading">Safety: Driving safety</h3>
+            </div>
+            <svg class="main__document__star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+            </svg>
+          </li>
+          <li class="main__document__item main__document__item--second">
+            <svg class="main__document__img" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <g fill="#000" fill-rule="evenodd">
+                <path fill-rule="nonzero" d="M7 22h14V10.35L17.518 6H7v16zM18.779 4.375l4.002 5A1 1 0 0 1 23 10v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h11.998a1 1 0 0 1 .78.375z"/>
+                <rect width="10" height="2" x="9" y="12" rx="1"/>
+                <rect width="6" height="2" x="9" y="16" rx="1"/>
+              </g>
+            </svg>
+            <div class="main__document__wrapp">
+              <p class="article__text article__text__document">What Is Classical Homeopathy</p>
+              <p class="main__document__time">6 min read</p>
+              <h3 class="article__text-heading">Daily Activities: Bathing & Showering</h3>
+            </div>
+            <svg class="main__document__star" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+              <path fill="#000" fill-rule="nonzero" d="M14 18.632l4.438 2.107-.625-4.887 3.368-3.585-4.825-.914L14 7.031l-2.356 4.322-4.825.914 3.368 3.585-.625 4.887L14 18.632zm0 2.14l-5.145 2.443a1 1 0 0 1-1.421-1.03l.725-5.672-3.911-4.164a1 1 0 0 1 .542-1.667l5.6-1.06 2.732-5.011a1 1 0 0 1 1.756 0l2.732 5.01 5.6 1.061a1 1 0 0 1 .542 1.667l-3.911 4.164.725 5.672a1 1 0 0 1-1.42 1.03L14 20.773z" opacity=".33"/>
+            </svg>
+          </li>
+        </ul>
+      </article>
+    </main>
+    <footer class="main-footer">
+      <p class="main-footer__left">Copyright &copy; 2020 ERIS. All rights reserved.</p>
+      <ul class="main-footer__right">
+        <li class="main-footer__right__item">Medical Disclaimer</li>
+        <li class="main-footer__right__item">Terms of Use</li>
+        <li class="main-footer__right__item">Privacy</li>
+      </ul>
+    </footer>
+  </body>
+  
+</html>

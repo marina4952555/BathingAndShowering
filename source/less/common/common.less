@@ -1,0 +1,58 @@
+body {
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: Montserrat, sans-serif;
+  color: black;
+  font-style: normal;
+  font-weight: 400;
+  
+  background-color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+picture {
+  cursor: pointer;
+}
+
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  margin: 32px 20px 0 20px;
+}
+
+@media (min-width: @tablet-width) {
+  .container {
+    margin: 32px 50px 0 50px;
+  }
+} 
+
+@media (min-width: @desktop-width) {
+  .container {
+    max-width: 940px;
+    margin: 82px auto 0 auto;
+  }
+}  

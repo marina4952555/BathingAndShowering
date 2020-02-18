@@ -1,0 +1,405 @@
+.main__heading {
+  max-width: 563px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #000000;
+  margin: 0;
+  letter-spacing: -0.1px;
+  padding-bottom: 40px;
+}
+
+.main__filter {
+  padding-bottom: 31px;
+}
+
+.main__advice {
+  padding-bottom: 42px;
+}
+
+.main__advice__list {
+  margin: 0;
+  padding: 0;
+}
+
+.main__advice__item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid @gray3; 
+}
+
+.main__document__item,
+.main__links__item,
+.main__advice__item,
+.main__video__item {
+  list-style: none;
+}
+
+.main__advice__wrapp {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.main__heading__color {
+  color: @color-site;
+}
+
+.main__video {
+  padding: 0 0 24px 0;
+}
+
+.main__video__list {
+  display: block;
+  padding-left: 0;
+}
+
+.main__video__item{
+  position: relative;
+  margin: 15px 0 0 0;
+  border-bottom: 1px solid @gray3; 
+}
+
+.main__video__img {
+  position: relative;
+  margin: 0 0 -5px 0;
+  width: 280px;
+  height: 138px;
+}
+
+.main__video__decor {
+  position: absolute;
+  height: 128px;
+  right: 5px;
+  top: 8px
+}
+
+.main__video__time {
+  margin: 62px 0 0 -5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.main__video__item--second {
+  display: none;
+}
+
+.main__music-1,
+.main__music-2,
+.main__video-1,
+.main__video-2 {
+  display: none;
+}
+
+.main__music__list {
+  padding: 0 0 25px 38px;
+}
+
+.main__music__box {
+  display: flex;
+  margin: -15px 0 0 0;
+  min-width: 238px;
+  position: relative;  
+}
+
+.main__music__item {
+  list-style-type: decimal-leading-zero;
+  letter-spacing: 2px;
+  border-bottom: 1px solid @gray3; 
+  margin-top: 16px;
+}
+
+.main__music__wrapp {
+  width: 76%;
+  margin-right: 20px;
+}
+
+.main__music__time {
+  width: 42px;
+}
+
+
+.main__document__item--second,
+.main__music__item--second {
+  display: none;
+}
+
+.main__music__number {
+  display: none;
+}
+
+.main__links__list {
+  padding-left: 0;
+}
+
+.main__links__item {
+  display: flex;
+  margin: -17px 0 0 0;
+  border-bottom: 1px solid @gray3; 
+}
+
+.main__links {
+  padding: 0 0 25px 0;
+}
+
+.main__links__wrapp {
+  margin: 3px 0 0 0;
+  width: 90%;
+}
+
+.main__links__link {
+  margin: -5px 0 10px 20px;
+  font-size: 13px;
+  height: 20px;
+  color: @gray2;
+  white-space: nowrap;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.main__document {
+  padding: 0 0 10px 0;
+}
+
+.main__document__top {
+  padding: 0 0 28px 0;
+}
+
+.main__document__list {
+  padding-left: 0;
+}
+
+.main__document__item {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0 0 0;
+  border-bottom: 1px solid @gray3; 
+}
+
+.main__document__wrapp {
+  margin: -15px 0 0 9px;
+  width: 76%;
+}
+
+.main__document__time {
+  display: none;
+}
+
+
+
+.main__document__item--second {
+  display: none;
+}
+
+
+
+@media (min-width: @tablet-width) {
+  .main__advice__wrapp {
+    width: 80%;
+  }
+
+  .main__video {
+    padding: 0 0 57px 0;
+  }
+
+  .main__music__item--first {
+    display: none;
+  }
+
+
+
+  .main__video__item--second {
+    display: initial;
+  }
+
+  .main__video__list {
+    display: flex;
+    margin-top: 0;
+  }
+
+  .main__video__item {
+    border-bottom: none;
+    margin: 32px 0px 0px 0px;
+    width: 25%;
+    height: 250px;
+  }
+
+  .main__video__img {
+    width: 220px;
+    height: 138px;
+    margin: 10px 0 -23px 6px;
+  }
+
+  .main__video__decor {
+    right: 21px;
+    top: 10px
+  }
+
+  .main__video__item--active {
+    background-color: @gray6;
+    border-radius: 6px;
+  }
+
+  
+  .main__video-1 {
+    display: initial;
+    position: absolute;
+    right: 100px;
+    top: 53px;
+    cursor: pointer;
+  }
+
+  .main__video-2 {
+    display: initial;
+    position: absolute;
+    right: 115px;
+    top: 71px
+  }
+
+  .main__video-1:hover {
+    transform: scale(1.1)
+  }
+
+}
+
+
+
+@media (min-width: @desktop-width) {
+
+  .main__document__item--first {
+    display: none;
+  }
+
+  .main__document__item--second {
+    display: flex;
+  }
+
+  .main__document__time {
+    display: initial;
+    font-size: 13px;
+    color: @gray2;
+  }
+
+  .main__heading {
+    font-size: 42px;
+    letter-spacing: 0.1px;
+  }
+
+  .main__filter {
+    margin-left: 4px;
+    padding-bottom: 73px;
+  }
+
+  .main__advice {
+    padding-bottom: 40px;
+  }
+
+  .main__links__item,
+  .main__document__item,
+  .main__music__item,
+  .main__video__list,
+  .main__advice__item {
+    border-bottom: none;
+    border-top: 1px solid @gray3; 
+  }
+
+  .main__music {
+    padding-bottom: 71px;
+  }
+
+  .main__music__list {
+    margin: -15px 0px 0px -15px;
+  }
+
+  .main__music__item--second {
+    display: inherit;
+  }
+
+  .main__music__item {
+    list-style-type: none;
+    letter-spacing: 8px;
+    margin: 16px 0 -33px 29px;
+  }
+
+  .main__music__item--active {
+    background-color: @gray6;
+    border-radius: 6px;
+  }
+
+  .main__music__time {
+    letter-spacing: 0px;
+    margin: 42px 190px 0 0;
+  }
+
+  .main__music__wrapp {
+    width: 65%;
+  }
+
+  .main__music__-star {
+    margin: 42px 0 0 0;
+    cursor: pointer;
+  }
+
+  .main__music__box {
+    justify-content: space-between;
+  }
+
+  .main__music-1 {
+    display: initial;
+    position: absolute;
+    left: -44px;
+    top: 38px;
+    background-color: @gray6;
+  }
+
+  .main__music-2 {
+    display: initial;
+    position: absolute;
+    left: -33px;
+    top: 48px;
+  }
+
+  .main__music-1:hover {
+    transform: scale(1.1)
+  }
+
+  .main__music__number {
+    display: initial;
+    margin: 0px 25px 0px -27px;
+  }
+
+  .main__links__item {
+    margin: -13px 0 28px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main__links {
+    padding: 0 0 41px 0;
+  }
+
+  .main__document__item {
+    margin: -42px 0 54px 0;
+    justify-content: space-between;
+  }
+
+  .main__document__wrapp {
+    margin: 5px 121px 9px 0;
+    width: 76%;
+    letter-spacing: 0.4px;
+  }
+
+  .main__document__img {
+    margin: 23px 0 0 16px;
+  }
+
+  .main__document__star {
+    margin: 23px 6px 0 0;
+    cursor: pointer;
+  }
+
+  .main__document {
+    padding: 0;
+  }
+  
+}

@@ -1,0 +1,67 @@
+.filter-list {
+  display: block;
+}
+
+.filtr__button {
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: @gray6;
+  padding: 0;
+}
+
+.filtr__button:hover {
+background-color: @gray5;
+}
+
+.filter-list {
+  margin: 0;
+  padding: 0;
+}
+
+.filter__item {
+  margin: 8px 0;
+  list-style: none;
+}
+
+.filtr__button__text {
+  margin: 9px 35px 7px 24px;
+  letter-spacing: 0.2px;
+  color: #000;
+}
+
+.filtr__button--active {
+  background-color: @color-site;
+}
+
+.filtr__button__text--star {
+  vertical-align: 7px;
+}
+
+.filter__star {
+  margin: 0 -18px 0 15px;
+}
+
+.filtr__heading--desktop {
+  display: none;
+}
+
+@media (min-width: @desktop-width) {
+
+  .filtr__heading--desktop {
+    display: initial;
+  }
+
+  .filtr__heading--mobile {
+    display: none;
+  }
+
+  .filter-list {
+    display: flex;
+  }
+
+  .filter__item {
+    margin: 6px 17px 6px 0;
+  }
+}  
